@@ -976,7 +976,7 @@
                     "addr_ranges": [
                         "0:18446744073709551615"
                     ],
-                    "assoc": 2,
+                    "assoc": 16,
                     "clk_domain": "system.cpu_clk_domain",
                     "clusivity": "mostly_incl",
                     "compressor": null,
@@ -1019,7 +1019,7 @@
                         "cxx_class": "BaseSetAssoc",
                         "name": "tags",
                         "path": "system.cpu.dcache.tags",
-                        "assoc": 2,
+                        "assoc": 16,
                         "block_size": 64,
                         "clk_domain": "system.cpu_clk_domain",
                         "entry_size": 64,
@@ -1029,7 +1029,7 @@
                             "cxx_class": "SetAssociative",
                             "name": "indexing_policy",
                             "path": "system.cpu.dcache.tags.indexing_policy",
-                            "assoc": 2,
+                            "assoc": 16,
                             "entry_size": 64,
                             "eventq_index": 0,
                             "size": 65536
@@ -1398,7 +1398,7 @@
             "name": "cpu_clk_domain",
             "path": "system.cpu_clk_domain",
             "clock": [
-                500
+                455
             ],
             "domain_id": -1,
             "eventq_index": 0,
@@ -1434,7 +1434,7 @@
             "addr_ranges": [
                 "0:18446744073709551615"
             ],
-            "assoc": 8,
+            "assoc": 16,
             "clk_domain": "system.cpu_clk_domain",
             "clusivity": "mostly_incl",
             "compressor": null,
@@ -1461,15 +1461,15 @@
             "prefetch_on_access": false,
             "prefetcher": null,
             "replacement_policy": {
-                "type": "LRURP",
-                "cxx_class": "LRURP",
+                "type": "RandomRP",
+                "cxx_class": "RandomRP",
                 "name": "replacement_policy",
                 "path": "system.l2.replacement_policy",
                 "eventq_index": 0
             },
             "response_latency": 20,
             "sequential_access": false,
-            "size": 262144,
+            "size": 2097152,
             "system": "system",
             "tag_latency": 20,
             "tags": {
@@ -1477,7 +1477,7 @@
                 "cxx_class": "BaseSetAssoc",
                 "name": "tags",
                 "path": "system.l2.tags",
-                "assoc": 8,
+                "assoc": 16,
                 "block_size": 64,
                 "clk_domain": "system.cpu_clk_domain",
                 "entry_size": 64,
@@ -1487,10 +1487,10 @@
                     "cxx_class": "SetAssociative",
                     "name": "indexing_policy",
                     "path": "system.l2.tags.indexing_policy",
-                    "assoc": 8,
+                    "assoc": 16,
                     "entry_size": 64,
                     "eventq_index": 0,
-                    "size": 262144
+                    "size": 2097152
                 },
                 "power_model": [],
                 "power_state": {
@@ -1508,7 +1508,7 @@
                 },
                 "replacement_policy": "system.l2.replacement_policy",
                 "sequential_access": false,
-                "size": 262144,
+                "size": 2097152,
                 "system": "system",
                 "tag_latency": 20,
                 "warmup_percentage": 0
