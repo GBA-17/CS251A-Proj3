@@ -41,7 +41,7 @@
                 "app_path": "/proc",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/lfsr_RandomRP_assoc4/fs/proc"
+                    "assoc_tests/lfsr_RandomRP_assoc4/fs/proc"
                 ]
             },
             {
@@ -52,7 +52,7 @@
                 "app_path": "/sys",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/lfsr_RandomRP_assoc4/fs/sys"
+                    "assoc_tests/lfsr_RandomRP_assoc4/fs/sys"
                 ]
             },
             {
@@ -63,7 +63,7 @@
                 "app_path": "/tmp",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/lfsr_RandomRP_assoc4/fs/tmp"
+                    "assoc_tests/lfsr_RandomRP_assoc4/fs/tmp"
                 ]
             }
         ],

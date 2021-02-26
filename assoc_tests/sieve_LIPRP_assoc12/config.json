@@ -41,7 +41,7 @@
                 "app_path": "/proc",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/sieve_LIPRP_assoc12/fs/proc"
+                    "assoc_tests/sieve_LIPRP_assoc12/fs/proc"
                 ]
             },
             {
@@ -52,7 +52,7 @@
                 "app_path": "/sys",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/sieve_LIPRP_assoc12/fs/sys"
+                    "assoc_tests/sieve_LIPRP_assoc12/fs/sys"
                 ]
             },
             {
@@ -63,7 +63,7 @@
                 "app_path": "/tmp",
                 "eventq_index": 0,
                 "host_paths": [
-                    "assoc/sieve_LIPRP_assoc12/fs/tmp"
+                    "assoc_tests/sieve_LIPRP_assoc12/fs/tmp"
                 ]
             }
         ],
@@ -1398,7 +1398,7 @@
             "name": "cpu_clk_domain",
             "path": "system.cpu_clk_domain",
             "clock": [
-                500
+                455
             ],
             "domain_id": -1,
             "eventq_index": 0,
