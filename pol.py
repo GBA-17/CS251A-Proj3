@@ -5,7 +5,7 @@ benchmarks = ['merge', 'lfsr', 'mm', 'sieve', 'spmv']
 cache_repls = ['LIPRP', 'NMRURP', 'RandomRP']
 
 for prog_name in benchmarks:
-    prog_loc = "cs251a-microbench/" + prog_name
+    prog_loc = "../cs251a-microbench/" + prog_name
     for repl in cache_repls:
         freq = "2.2GHz"
         inst = ("../gem5/build/X86/gem5.opt --outdir=policy/%s_%s ../gem5/configs/example/se.py --cmd=%s --cpu-type=DerivO3CPU " +\
