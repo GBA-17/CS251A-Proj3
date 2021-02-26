@@ -9,7 +9,7 @@ class test:
     def add_val(self, key, val):
         self.vals[key] = val
 
-want_vals = ['sim_ticks', 'system.cpu.dcache.overall_misses::total', 'system.cpu.dcache.replacements']
+want_vals = ['final_tick', 'system.cpu.dcache.replacements', 'system.cpu.dcache.overall_hits::total', 'system.cpu.dcache.overall_misses::total', 'system.cpu.idleCycles']
 tests = []
 
 for d in os.walk('.'):
