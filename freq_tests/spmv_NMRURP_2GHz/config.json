@@ -41,7 +41,7 @@
                 "app_path": "/proc",
                 "eventq_index": 0,
                 "host_paths": [
-                    "CS251A-Proj3/freq2/spmv_NMRURP_2GHz/fs/proc"
+                    "freq_tests/spmv_NMRURP_2GHz/fs/proc"
                 ]
             },
             {
@@ -52,7 +52,7 @@
                 "app_path": "/sys",
                 "eventq_index": 0,
                 "host_paths": [
-                    "CS251A-Proj3/freq2/spmv_NMRURP_2GHz/fs/sys"
+                    "freq_tests/spmv_NMRURP_2GHz/fs/sys"
                 ]
             },
             {
@@ -63,7 +63,7 @@
                 "app_path": "/tmp",
                 "eventq_index": 0,
                 "host_paths": [
-                    "CS251A-Proj3/freq2/spmv_NMRURP_2GHz/fs/tmp"
+                    "freq_tests/spmv_NMRURP_2GHz/fs/tmp"
                 ]
             }
         ],
